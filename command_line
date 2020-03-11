@@ -1,0 +1,11 @@
+mkdir reduced
+mkdir edited
+mkdir originals
+mv *.pdf* originals/
+mv edited_* edited
+cd edited
+for i in *.jpg; do jpegoptim --size=1024k --d ../reduced/ $i; done
+cd ../reduced/
+mkdir thumbs
+for i in *.jpg; do convert -thumbnail x300 $i thumbs/thumb_$i; done
+cd ..

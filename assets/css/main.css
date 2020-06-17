@@ -2,17 +2,21 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,600,400italic,600italic");
-@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,400italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,700,400italic,600italic");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto:400,700");
 @import url("https://fonts.googleapis.com/css?family=Helvetica+Neue:400,600,400italic,600italic");
 @import url("https://fonts.googleapis.com/css?family=Lucida:400,600,400italic,600italic");
-
+@import url("https://fonts.googleapis.com/css?family=Eagle+Lake:400,600,400italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:400,600,700,400italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600,700,400italic,600italic");
 /*
 	Theory by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+
+/* * {	font-family: "Eagle Lake", sans-serif; } */
 
 /* Reset */
 
@@ -1605,6 +1609,7 @@ hr.new_hr {
 	}
 
 	body {
+		/* background:rgb(156, 156, 156); */
 		background: #fff;
 	}
 
@@ -1625,8 +1630,9 @@ hr.new_hr {
 		color: #9a9a9a;
 		/* font-family: "Raleway", Arial, Helvetica, sans-serif; */
 		/* font-family: "EB Garamond", serif; */
-		/* font-family: 'Cormorant Garamond', serif; */
-		font-family: 'Garamond', serif;
+		font-family: 'Cormorant Infant', serif;
+		/* font-family: "Eagle Lake", sans-serif; */
+		/* font-family: 'Garamond', serif; */
 		/* font-family: "Lucida",serif; */
 		/* font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana",sans-serif;  */
 		/* font-family: "Roboto Slab", serif; */
@@ -1637,7 +1643,7 @@ hr.new_hr {
 		/* font-family: 'Helvetica', 'Arial', sans-serif; */
 		/* font-family: "Open Sans", sans-serif; */
 		font-size: 18pt;
-		font-weight: 300;
+		font-weight: 700;
 		/* font-weight: bold; */
 		color:black;
 		line-height: 1.65;
@@ -1687,6 +1693,7 @@ hr.new_hr {
 	a {
 		/* color: red; */
 		color:red;
+		/* color: #5E1914; */
 		text-decoration: underline;
 		margin: 0em 0em 2em 0em;
 		/* margin: 0em 0em 3% 3%; */
@@ -1714,7 +1721,8 @@ hr.new_hr {
 	h1, h2, h3, h4, h5, h6 {
 		/* color: red; */
 		color:red;
-		font-weight: 300;
+		/* color: #5E1914; */
+		font-weight: 400;
 		line-height: 1.5;
 		margin: 0 0 1em 0em;
 	}
@@ -1726,25 +1734,29 @@ hr.new_hr {
 
 	h2 {
 		font-size: 1.75em;
-		font-weight: 100;
+		font-weight: 400;
 		font-variant: small-caps;
 	}
 
 	h3 {
 		font-size: 1.35em;
+		font-weight: 700;
 	}
 
 	h4 {
 		font-size: 1.1em;
+		font-weight: 700;
 	}
 
 	h5 {
 		font-size: 0.9em;
+		font-weight: 400;
 	}
 
 	h6 {
 		color:gray;
 		font-size: 1.6em;
+		font-weight: 400;
 	}
 
 	sub {
@@ -1874,7 +1886,8 @@ hr.new_hr {
 		}
 
 		section.wrapper.style1, article.wrapper.style1 {
-			background: red;
+			/* background: red; */
+			color: #5E1914;
 			/* color: #bacee6; */
 			color:black;
 		}
@@ -2121,6 +2134,7 @@ hr.new_hr {
 		textarea:focus {
 			border-color: red;
 			box-shadow: 0 0 0 1px red;
+			color: #5E1914;
 		}
 
 	.select-wrapper {
@@ -2133,7 +2147,7 @@ hr.new_hr {
 			content: "";
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			/* font-family: FontAwesome; */
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2198,7 +2212,7 @@ hr.new_hr {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				/* font-family: FontAwesome; */
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2831,7 +2845,7 @@ hr.new_hr {
 	}
 
 		.subpage #header {
-			background: red;
+			background: #5E1914;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2870,7 +2884,7 @@ hr.new_hr {
 			display: inline-block;
 			font-weight: 600;
 			height: inherit;
-			left: -4em;
+			left: -2%;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
@@ -2981,7 +2995,7 @@ hr.new_hr {
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: red;
+		background: #5E1914;
 		/* color: #d4e0ef; */
 		height: 100%;
 		max-width: 80%;
@@ -3039,7 +3053,7 @@ hr.new_hr {
 			#navPanel .close:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				/* font-family: FontAwesome; */
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -3072,7 +3086,7 @@ hr.new_hr {
 		/* background-size: 800px 400px; */
 		background-size:35%;
 		text-align: center;
-		border-top: .5em solid red;
+		border-top: .5em solid #5E1914;
 	}
 
 		#banner h1 {

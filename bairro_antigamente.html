@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Mural Histórico</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link href='lightbox/dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">ALR</a>
+					<nav id="nav">
+						<a href="index.html">Página Inicial</a>
+						<a href="memorias_do_morro.html">Memórias do Morro</a>
+						<a href="eventos.html">Eventos</a>
+						<a href="muro_historico.html">Mural Histórico</a>
+						<a href="midia_digital.html">Mídia Digital</a>
+						<a href="noticias.html">Notícias</a>
+						<a href="covid19.html">Covid-19</a>
+						<a href="sobre.html">Sobre o Coletivo</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+            </header>
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<!-- <header class="align-center"> -->
+						<h2>Como era o bairro antes...</h2>
+						<hr>
+
+						<!-- <hr class="new_hr"> -->
+						<h4> São Paulo em 1921</h4>
+						<p>
+							Podemos observar nesse mapa que, já em 1921, o barro já possuia o nome de Morro Doce (no mapa, Mº Doce)
+						</p>
+						<!-- <hr class="new_hr"> -->
+
+						<div class="gallery">
+							<a href="images/mural/morrodoce_antigamente/sao_paulo_1921.jpg" class="big"><img src="images/mural/morrodoce_antigamente/thumbs/thumb_sao_paulo_1921.jpg" alt="" title="São Paulo em 1921. Acervo público do Estado de São Paulo." /></a>
+							<a href="images/mural/morrodoce_antigamente/sao_paulo_1921_md.jpg">			   <img src="images/mural/morrodoce_antigamente/thumbs/thumb_sao_paulo_1921_md.jpg" alt="" title="O nome 'Mº Doce' já existia em 1921." /></a>
+							<div class="clear"></div>
+						</div>
+						<!-- <a href="images/mural/morrodoce_antigamente/sao_paulo_1921.jpg" >Baixar imagem.</a> -->
+						<a href="images/mural/morrodoce_antigamente/sao_paulo_1921.jpg" target="_blank">Baixar imagem.</a>
+						<!-- <a href="images/mural/morrodoce_antigamente/sao_paulo_1921.jpg" download="images/mural/morrodoce_antigamente/sao_paulo_1921.jpg" >Baixar Imagem</a> -->
+
+				</div>
+
+
+      </section>
+        <!-- Footer -->
+
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; ALR. Design <a href="https://templated.co">TEMPLATED</a>. <br>
+							Modificado por GL
+						</div>
+						<ul class="icons">
+							<li><a href="https://www.facebook.com/anhagueralutaeresistencia/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/anhanguera.lr/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+			<script type="text/javascript" src="lightbox/dist/simple-lightbox.js"></script>
+			<script>
+				$(function(){
+					var $gallery = $('.gallery a').simpleLightbox();
+
+					$gallery.on('show.simplelightbox', function(){
+						console.log('Requested for showing');
+					})
+					.on('shown.simplelightbox', function(){
+						console.log('Shown');
+					})
+					.on('close.simplelightbox', function(){
+						console.log('Requested for closing');
+					})
+					.on('closed.simplelightbox', function(){
+						console.log('Closed');
+					})
+					.on('change.simplelightbox', function(){
+						console.log('Requested for change');
+					})
+					.on('next.simplelightbox', function(){
+						console.log('Requested for next');
+					})
+					.on('prev.simplelightbox', function(){
+						console.log('Requested for prev');
+					})
+					.on('nextImageLoaded.simplelightbox', function(){
+						console.log('Next image loaded');
+					})
+					.on('prevImageLoaded.simplelightbox', function(){
+						console.log('Prev image loaded');
+					})
+					.on('changed.simplelightbox', function(){
+						console.log('Image changed');
+					})
+					.on('nextDone.simplelightbox', function(){
+						console.log('Image changed to next');
+					})
+					.on('prevDone.simplelightbox', function(){
+						console.log('Image changed to prev');
+					})
+					.on('error.simplelightbox', function(e){
+						console.log('No image found, go to the next/prev');
+						console.log(e);
+					});
+				});
+			</script>
+
+	</body>
+</html>

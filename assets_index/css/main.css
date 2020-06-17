@@ -6,6 +6,8 @@
 /* @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,400italic,600italic"); */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700|Roboto:400,700");
 @import url("https://fonts.googleapis.com/css?family=Helvetica+Neue:400,600,400italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:400,600,700,400italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Upright:400,600,700,400italic,600italic");
 
 /*
 	Solid State by HTML5 UP
@@ -131,10 +133,10 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-		/* font-family: 'Cormorant Garamond', serif; */
-		font-family: 'Garamond', serif;
+		font-family: 'Cormorant Infant', serif;
+		/* font-family: 'Garamond', serif; */
+		font-weight: 700;
 		font-size: 16.5pt;
-		font-weight: 300;
 		line-height: 1.65;
 	}
 
@@ -162,7 +164,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 420px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -170,7 +172,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 420px) {
 
 			body, input, select, textarea {
 				font-size: 12pt;
@@ -199,7 +201,9 @@ input, select, textarea {
 			display: block;
 			/* font-family: Raleway, Helvetica, sans-serif; */
 			/* font-family: 'Cormorant Garamond', serif; */
-			font-family: 'Garamond', serif;
+			font-family: 'Cormorant Infant', serif;
+			/* font-family: 'Garamond', serif; */
+			/* font-family: 'Garamond', serif; */
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -258,13 +262,16 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-family: 'Cormorant Infant', serif;
+		font-weight: 700;
+		text-align:justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		/* font-family: Raleway, Helvetica, sans-serif; */
 		/* font-family: 'Cormorant Garamond', serif; */
-		font-family: 'Garamond', serif;
+		font-family: 'Cormorant Infant', serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -306,7 +313,7 @@ input, select, textarea {
 		font-size: 0.7em;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 420px) {
 
 		h2 {
 			font-size: 1em;
@@ -1361,7 +1368,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 420px) {
 
 			.row {
 				display: flex;
@@ -2181,7 +2188,8 @@ input, select, textarea {
 		display: block;
 		/* font-family: Raleway, Helvetica, sans-serif; */
 		/* font-family: 'Cormorant Garamond', serif; */
-		font-family: 'Garamond', serif;
+		/* font-family: 'Garamond', serif; */
+		font-family: 'Cormorant Infant', serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2286,7 +2294,9 @@ input, select, textarea {
 			font-size: 1em;
 			/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
 			/* font-family: 'Cormorant Garamond', serif; */
-			font-family: 'Garamond', serif;
+			/* font-family: 'Garamond', serif; */
+			font-family: 'Cormorant Infant', serif;
+			font-weight: 700;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -2489,6 +2499,7 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
+			/* font-size: 1.1em; */
 		}
 
 	ul {
@@ -2718,7 +2729,7 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 420px) {
 
 			ul.contact li {
 				margin: 1.5em 0 0 0;
@@ -2888,9 +2899,10 @@ input, select, textarea {
 		display: inline-block;
 		/* font-family: Raleway, Helvetica, sans-serif; */
 		/* font-family: 'Cormorant Garamond', serif; */
-		font-family: 'Garamond', serif;
-		font-size: 0.8em;
+		/* font-family: 'Garamond', serif; */
+		font-family: 'Cormorant Infant', serif;
 		font-weight: 700;
+		font-size: 0.8em;
 		height: 3.75em;
 		letter-spacing: 0.1em;
 		line-height: 3.75em;
@@ -3057,7 +3069,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 420px) {
 
 			.features article {
 				padding: 1.5em 1.5em 0.1em 1.5em ;
@@ -3124,9 +3136,10 @@ input, select, textarea {
 		#header nav {
 			/* font-family: Raleway, Helvetica, sans-serif; */
 			/* font-family: 'Cormorant Garamond', serif; */
-			font-family: 'Garamond', serif;
-			font-size: 0.8em;
+			/* font-family: 'Garamond', serif; */
+			font-family: 'Cormorant Infant', serif;
 			font-weight: 700;
+			font-size: 0.8em;
 			height: 3em;
 			letter-spacing: 0.1em;
 			line-height: 3em;
@@ -3140,11 +3153,13 @@ input, select, textarea {
 				border: 0;
 				display: inline-block;
 				padding: 0 1em;
+				font-weight: 700;
 			}
 
 				#header nav a:before {
 					float: right;
 					margin-left: 0.75em;
+					font-weight: 700;
 				}
 
 				#header nav a[href="#menu"] {
@@ -3154,6 +3169,7 @@ input, select, textarea {
 					-ms-transition: background-color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out;
 					border-radius: 5px;
+					font-weight: 700;
 					box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
 					padding: 0 1.35em;
 				}
@@ -3174,6 +3190,7 @@ input, select, textarea {
 					#header nav a[href="#menu"]:before {
 						content: '\f0c9';
 						line-height: inherit;
+						font-weight: 700;
 					}
 
 					#header nav a[href="#menu"]:hover {
@@ -3193,7 +3210,7 @@ input, select, textarea {
 				visibility: hidden;
 			}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 420px) {
 
 			#header {
 				height: 2.75em;
@@ -3205,21 +3222,25 @@ input, select, textarea {
 					right: 0;
 					height: inherit;
 					line-height: inherit;
+					font-weight: 700;
 				}
 
 					#header nav a {
 						height: inherit;
 						line-height: inherit;
+						font-weight: 700;
 					}
 
 						#header nav a[href="#menu"] {
 							box-shadow: none;
 							padding: 0 1em;
 							border-radius: 0;
+							font-weight: 700;
 						}
 
 							#header nav a[href="#menu"]:hover, #header nav a[href="#menu"]:active {
 								background-color: inherit;
+								font-weight: 700;
 							}
 
 		}
@@ -3230,6 +3251,7 @@ input, select, textarea {
 				width: 4em;
 				white-space: nowrap;
 				text-indent: 4em;
+				font-weight: 700;
 				position: relative;
 			}
 
@@ -3241,6 +3263,7 @@ input, select, textarea {
 					text-indent: 0;
 					text-align: right;
 					margin-left: 0;
+					font-weight: 700;
 					padding-right: 1.25em;
 				}
 
@@ -3288,6 +3311,7 @@ input, select, textarea {
 		top: 0;
 		visibility: hidden;
 		width: 100%;
+		font-weight: 700;
 	}
 
 		#menu .inner {
@@ -3306,6 +3330,8 @@ input, select, textarea {
 			display: block;
 			max-width: 100%;
 			opacity: 0;
+			font-weight: 700;
+			font-size: 1.3em;
 			position: relative;
 			width: 18em;
 		}
@@ -3337,10 +3363,12 @@ input, select, textarea {
 			list-style: none;
 			margin-bottom: 1.5em;
 			padding: 0;
+			font-weight: 700;
 		}
 
 			#menu .links li {
 				padding: 0;
+				font-weight: 700;
 			}
 
 				#menu .links li a {
@@ -3349,9 +3377,10 @@ input, select, textarea {
 					display: block;
 					/* font-family: Raleway, Helvetica, sans-serif; */
 					/* font-family: 'Cormorant Garamond', serif; */
-					font-family: 'Garamond', serif;
+					/* font-family: 'Garamond', serif; */
+					font-family: 'Cormorant Infant', serif;
 					font-size: 0.8em;
-					font-weight: 200;
+					font-weight: 700;
 					letter-spacing: 0.1em;
 					line-height: 1.85em;
 					padding: 0.75em 0;
@@ -3362,7 +3391,7 @@ input, select, textarea {
 						background: #b22222;
 					}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 420px) {
 
 			#menu .inner {
 				max-height: 100%;
@@ -3400,12 +3429,12 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 15em 0 4.75em 0 ;
+		padding: 15em 10em 2.25em 10em ;
 		background-image: url('../../images/logo2.png');
 		/* background-color: black; */
-		background-size:35%;
+		background-size:45%;
 		background-repeat: no-repeat;
-		background-position: center top 2em;
+		background-position: center top 0em;
 		background-attachment: fixed;
 	}
 
@@ -3424,7 +3453,10 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 0 0 1.3em 0;
+			margin: 2em auto 0 auto;
+			/* padding: 0 0 0 0 ; */
+			width: 90%;
+			height: 90%;
 		}
 
 			#banner .logo .icon {
@@ -3483,9 +3515,10 @@ input, select, textarea {
 			opacity: 1;
 			/* font-family: Raleway, Helvetica, sans-serif; */
 			/* font-family: 'Cormorant Garamond', serif; */
-			font-family: 'Garamond', serif;
+			/* font-family: 'Garamond', serif; */
+			font-family: 'Cormorant Infant', serif;
+			font-weight: 400;
 			font-size: 1em;
-			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
@@ -3519,15 +3552,19 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 320px) {
 
 			#banner {
 				padding: 5em 2em 4.25em 2em ;
 				margin-bottom: -2.5em;
+				width: 90%;
+				height: 90%;
 			}
 
 				#banner .logo {
 					margin: 0 0 1em 0;
+					width: 90%;
+					height: 90%;
 				}
 
 					#banner .logo .icon {
@@ -3597,12 +3634,14 @@ input, select, textarea {
 		#wrapper > header p {
 			/* font-family: Raleway, Helvetica, sans-serif; */
 			/* font-family: 'Cormorant Garamond', serif; */
-			font-family: 'Garamond', serif;
+			/* font-family: 'Garamond', serif; */
+			font-family: 'Cormorant Infant', serif;
+			font-weight: 700;
 			font-size: 1em;
-			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
+			text-align:justify;
 		}
 
 	@media screen and (max-width: 1280px) {
@@ -3637,7 +3676,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 420px) {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
@@ -3964,7 +4003,7 @@ input, select, textarea {
 
 				.wrapper .inner {
 					padding: 3em 3em 1em 3em ;
-					width: 100%;
+					width: 95%;
 				}
 
 				.wrapper.spotlight .image {
@@ -3978,7 +4017,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 420px) {
 
 			.wrapper {
 				margin: 2.5em 0;
@@ -4148,7 +4187,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 420px) {
 
 		#footer {
 			margin-top: -2.5em;

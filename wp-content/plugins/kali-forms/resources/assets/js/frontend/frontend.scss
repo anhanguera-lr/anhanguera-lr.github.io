@@ -1,0 +1,354 @@
+@import '~filepond/dist/filepond.css';
+@import '~filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css';
+
+.kaliforms-form-container {
+    @import './form-reset.scss';
+
+    &.kaliforms-hidden-during-load {
+        transition: all .2s ease-in;
+    }
+
+    .wp-switch-editor {
+        font-size: 13px;
+        background: #ebebeb;
+        color: #666;
+        cursor: pointer;
+        line-height: 1.46153846;
+        height: 20px;
+        margin: 5px 0 0 5px;
+        padding: 3px 8px 4px;
+        border: 1px solid #e5e5e5;
+
+        &:focus {
+            box-shadow: 0 0 0 1px #5b9dd9, 0 0 2px 1px rgba(30, 140, 190, .8);
+            outline: 0;
+            color: #23282d;
+        }
+    }
+
+    >h3 {
+        display: inline-block;
+    }
+
+    .row {
+
+        div[class^="col-"],
+        div[class*=" col-"] {
+            margin-bottom: 15px
+        }
+    }
+
+    .smart-text-output {
+        code {
+            background: initial;
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+            padding: initial;
+        }
+    }
+
+    input[type=color],
+    input[type=date],
+    input[type=datetime-local],
+    input[type=datetime],
+    input[type=email],
+    input[type=month],
+    input[type=number],
+    input[type=password],
+    // input[type=radio],
+    input[type=search],
+    input[type=tel],
+    input[type=text],
+    input[type=time],
+    input[type=url],
+    input[type=week],
+    select,
+    textarea {
+        width: 100%;
+        min-height: 45px;
+        padding: 5px 10px;
+    }
+
+    .choices__inner {
+        font-size: inherit;
+    }
+
+    .choices[data-type*=select-multiple] .choices__button,
+    .choices[data-type*=text] .choices__button {
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTkgNi40MUwxNy41OSA1IDEyIDEwLjU5IDYuNDEgNSA1IDYuNDEgMTAuNTkgMTIgNSAxNy41OSA2LjQxIDE5IDEyIDEzLjQxIDE3LjU5IDE5IDE5IDE3LjU5IDEzLjQxIDEyeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 13px;
+        margin: 0 0 0 8px;
+    }
+
+    .filepond--root {
+        font-size: inherit;
+    }
+
+    .row.kaliforms-pagebreak {
+        margin-top: .5rem;
+    }
+
+    .row>div> {
+
+        input[type=color],
+        input[type=date],
+        input[type=datetime-local],
+        input[type=datetime],
+        input[type=email],
+        input[type=month],
+        input[type=number],
+        input[type=password],
+        // input[type=radio],
+        input[type=search],
+        input[type=tel],
+        input[type=text],
+        input[type=time],
+        input[type=url],
+        input[type=week],
+        select,
+        textarea {
+            margin-bottom: 1rem;
+        }
+    }
+
+    label {
+        > {
+
+            input[type=radio],
+            input[type=checkbox] {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .kaliforms-date-time-picker-container {
+        position: relative;
+    }
+
+    .kaliforms-date-picker-icon {
+        position: absolute;
+        right: 20px;
+        top: 9px;
+        width: 24px !important;
+        height: 24px;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTkgMTFIN3YyaDJ2LTJ6bTQgMGgtMnYyaDJ2LTJ6bTQgMGgtMnYyaDJ2LTJ6bTItN2gtMVYyaC0ydjJIOFYySDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDIwYzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjZjMC0xLjEtLjktMi0yLTJ6bTAgMTZINVY5aDE0djExeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4K);
+    }
+
+    .flatpickr-input[readonly] {
+        background-color: initial;
+        cursor: pointer;
+    }
+
+    .global-error-message {
+
+        color: red;
+        padding: 10px 0;
+        display: none;
+    }
+
+    &.kaliform-loading {
+        position: relative;
+
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            content: '';
+            display: block;
+            background: transparentize(#fff, .4);
+            z-index: 1000;
+        }
+    }
+
+    .kaliform-loader-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1001;
+    }
+
+    .kaliform-loader {
+        display: inline-block;
+        position: relative;
+        width: 64px;
+        height: 64px;
+    }
+
+    .kaliform-loader div {
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #5144e7;
+        animation: kaliform-loader 1.2s linear infinite;
+    }
+
+    .kaliform-loader div:nth-child(1) {
+        top: 6px;
+        left: 6px;
+        animation-delay: 0s;
+    }
+
+    .kaliform-loader div:nth-child(2) {
+        top: 6px;
+        left: 26px;
+        animation-delay: -0.4s;
+    }
+
+    .kaliform-loader div:nth-child(3) {
+        top: 6px;
+        left: 45px;
+        animation-delay: -0.8s;
+    }
+
+    .kaliform-loader div:nth-child(4) {
+        top: 26px;
+        left: 6px;
+        animation-delay: -0.4s;
+    }
+
+    .kaliform-loader div:nth-child(5) {
+        top: 26px;
+        left: 26px;
+        animation-delay: -0.8s;
+    }
+
+    .kaliform-loader div:nth-child(6) {
+        top: 26px;
+        left: 45px;
+        animation-delay: -1.2s;
+    }
+
+    .kaliform-loader div:nth-child(7) {
+        top: 45px;
+        left: 6px;
+        animation-delay: -0.8s;
+    }
+
+    .kaliform-loader div:nth-child(8) {
+        top: 45px;
+        left: 26px;
+        animation-delay: -1.2s;
+    }
+
+    .kaliform-loader div:nth-child(9) {
+        top: 45px;
+        left: 45px;
+        animation-delay: -1.6s;
+    }
+
+    @keyframes kaliform-loader {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.5;
+        }
+    }
+
+    &.fade-out-top {
+        -webkit-animation: fade-out-top 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: fade-out-top 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+
+    @-webkit-keyframes fade-out-top {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+    }
+
+    @keyframes fade-out-top {
+        0% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        100% {
+            -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+    }
+
+    &.straight-borders {
+        @import './form-styles/straight-borders.scss';
+    }
+
+    &.rounded-borders {
+        @import './form-styles/rounded-borders.scss';
+    }
+
+    &.input-with-bg {
+        @import './form-styles/input-with-bg.scss';
+    }
+
+    &.only-bottom-border {
+        @import './form-styles/border-bottom.scss';
+    }
+
+    &.no-shadows {
+        @import './form-styles/remove-shadows.scss';
+    }
+
+    &.no-borders {
+        @import './form-styles/no-borders.scss';
+    }
+
+    &.dark {
+        background: #444442;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        @import './form-styles/dark.scss';
+    }
+
+    &.input-label-merge {
+        @import './form-styles/input-label-merge.scss';
+    }
+
+    &.input-label-merge-overlap {
+        @import './form-styles/input-label-overlap.scss';
+    }
+
+    .khpfield {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
+    }
+
+    .image-radio-label {
+        text-align: center;
+
+        img: {
+            width: 100%
+        }
+
+        >input[type=radio] {
+            margin-right: 0 !important;
+        }
+    }
+
+    @import './form-styles/buttons.scss';
+}

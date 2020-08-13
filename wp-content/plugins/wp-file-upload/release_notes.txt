@@ -1,0 +1,3 @@
+<!--  --><span><strong>Version 4.14.3</strong> is a regular update that includes some bug fixes and code improvements. The most important one is a significant <strong>speed-up</strong> in loading of <strong>File Browser</strong> feature in <strong>Dashboard</strong> area of the plugin, in cases where there is a very large number of files.<br /><br />
+For more details about this version's changes please visit the Release Notes of the plugin's </span><a href="http://www.iptanus.com/wordpress-plugins/wordpress-file-upload/">support page</a><span>.</span><!--  -->
+<!--  -->

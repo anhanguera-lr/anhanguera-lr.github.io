@@ -1,0 +1,106 @@
+h3,
+span {
+    color: #fff;
+}
+
+input:focus~label,
+textarea:focus~label,
+input:valid~label,
+textarea:valid~label {
+    color: #999;
+}
+
+label,
+small {
+    color: #fff;
+}
+
+input,
+textarea {
+    border: 0;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+select {
+    border: 0;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+}
+
+.choices__inner {
+    background-color: #2d2d2d;
+    border: 0;
+    color: #fff;
+}
+
+.choices__input {
+    display: inline-block;
+}
+
+.choices[data-type*=select-multiple] .choices__button,
+.choices[data-type*=text] .choices__button {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTkgNi40MUwxNy41OSA1IDEyIDEwLjU5IDYuNDEgNSA1IDYuNDEgMTAuNTkgMTIgNSAxNy41OSA2LjQxIDE5IDEyIDEzLjQxIDE3LjU5IDE5IDE5IDE3LjU5IDEzLjQxIDEyeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 13px;
+    border-left-color: #2d2d2d;
+}
+
+.choices__list--dropdown {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+
+    &.choices__list {
+        color: #fff;
+    }
+
+    .choices__item--selectable.is-highlighted {
+        background: #4d4d4d
+    }
+}
+
+.choices__list--multiple .choices__item {
+    background-color: #fff;
+    color: #2d2d2d;
+    border: 0;
+}
+
+.choices[data-type*=select-one] {
+    .choices__input {
+        border: 0;
+        background-color: #2d2d2d;
+        color: #fff;
+    }
+
+    &:after {
+        border-color: rgb(138, 138, 138) transparent transparent transparent;
+    }
+}
+
+.filepond--drop-label {
+    color: #fff;
+}
+
+.filepond--panel-root {
+    background-color: #2d2d2d;
+}
+
+.flatpickr-input[readonly] {
+    background-color: #2d2d2d;
+}
+
+.kaliforms-date-picker-icon {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTkgMTFIN3YyaDJ2LTJ6bTQgMGgtMnYyaDJ2LTJ6bTQgMGgtMnYyaDJ2LTJ6bTItN2gtMVYyaC0ydjJIOFYySDZ2Mkg1Yy0xLjExIDAtMS45OS45LTEuOTkgMkwzIDIwYzAgMS4xLjg5IDIgMiAyaDE0YzEuMSAwIDItLjkgMi0yVjZjMC0xLjEtLjktMi0yLTJ6bTAgMTZINVY5aDE0djExeiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4K);
+}
+
+div[class=kali-forms-digital-signature]
+{
+	border:none;
+	background: #2d2d2d;
+}

@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="timeline/dist/css/timeline.min.css" rel="stylesheet" />
 	</head>
 	<body class="subpage">
 
@@ -135,6 +136,51 @@
 			</div>
 			</section> <!-- cd-timeline -->
 
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<!-- <header class="align-center"> -->
+
+				<!-- <div class="timeline" data-mode="horizontal" data-force-vertical-mode="800" visible-items="6"> -->
+				<div class='timeline'>
+				<div class="timeline__wrap">
+				  <div class="timeline__items">
+					<div class="timeline__item">
+					  <div class="timeline__content">
+						Your content / markup
+					  </div>
+					</div>
+					<div class="timeline__item">
+					  <div class="timeline__content">
+						Your content / markup
+					  </div>
+					</div>
+					<div class="timeline__item">
+					  <div class="timeline__content">
+						Your content / markup
+					  </div>
+					</div>
+
+					<div class="timeline__item">
+						<div class="timeline__content">
+						  Your content / markup
+						</div>
+					</div>
+
+					<div class="timeline__item">
+						<div class="timeline__content">
+						  Your content / markup
+						</div>
+					</div>
+					
+				  </div>
+				</div>
+			  </div>
+			  <!-- timeline(document.querySelectorAll('.timeline'));
+			  $('.timeline').timeline(); -->
+
+			  </div>
+			  </section>
+
         <!-- Footer -->
 
 			<footer id="footer">
@@ -157,6 +203,14 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="timeline/dist/js/timeline.min.js"></script>
+			<script>
+				// $('.timeline').timeline();
+				timeline(document.querySelectorAll('.timeline'), {
+ 					forceVerticalMode: 800,
+  					mode: 'horizontal',
+  					visibleItems: 3
+				});
+			</script>
 	</body>
 </html>

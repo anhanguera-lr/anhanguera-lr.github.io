@@ -244,3 +244,32 @@ hr {
   /* left: -80%; */
   /* width: 120%; */
 }
+button,
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  background-color: #5a5a5a;
+  border-radius: 0;
+  border: 0;
+  color: #ffffff !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  height: 2.1em;
+  line-height: 2.1em;
+  padding: 0 1.0em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+button.special,
+.button.special {
+  background-color: #d73526;
+  color: #ffffff !important;
+}

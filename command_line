@@ -12,4 +12,10 @@ cd ..
 
 
 mkdir reduced
-for i in *.JPG; do jpegoptim --size=1024k --d reduced/ $i; done
+for i in *.jpg; do jpegoptim --size=1024k --d reduced/ $i; done
+
+
+mkdir thumbs
+for i in *.jpeg; do convert -thumbnail x300 $i thumbs/thumb_$i; done
+mkdir reduced
+for i in *.jpg; do jpegoptim --size=1024k --d reduced/ $i; done

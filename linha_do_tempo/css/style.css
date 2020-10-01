@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One:400,600,700,400italic,600italic");
-/* font-family: 'Cormorant Infant', serif; */
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:400,600,700,400italic,600italic");
+@import url("https://fonts.googleapis.com/css?family=Spectral:400,600,700,400italic,600italic");
+/* font-family: 'Spectral', serif; */
 .timeline {
   display: flex;
   margin: 0 auto;
@@ -15,42 +17,23 @@
   transition: .4s;
   padding: 0 10px;
   box-sizing: border-box;
-  font-family: "Pathway Gothic One", sans-serif;
+  /* font-family: "Pathway Gothic One", sans-serif; */
+  font-family: 'Spectral', sans-serif;
   color: #d73526;
 }
 .timeline__content-desc {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.7);
-  font-family: Cardo;
+  /* font-family: Cardo; */
+  font-family: 'Spectral', sans-serif;
   font-weight: 600;
   line-height: 25px;
   /* width: 100%; */
-  width: 130%;
-  margin-left: -60px;
+  width: 125%;
+  margin-left: -40px;
   margin-right: 80px;
-  padding-left: 50px;
-  padding-right: -60px;
-  /* width: 180%;
-  margin-left: -10%;
-  margin-right: -10%;
-  padding-left: 0%;
-  padding-right: 50%; */
-  /* left: 60%; */
-}
-.timeline__content-desc-des {
-  margin: 0;
-  font-size: 14px;
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: Cardo;
-  font-weight: 600;
-  line-height: 15px;
-  width: 100%;
-  /* width: 130%; */
-  /* margin-left: -60px; */
-  /* margin-right: 80px; */
   /* padding-left: 50px; */
   /* padding-right: -60px; */
   /* width: 180%;
@@ -60,6 +43,54 @@
   padding-right: 50%; */
   /* left: 60%; */
 }
+.timeline__content-desc-des {
+  margin: 0;
+  font-size: 17px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.7);
+  /* font-family: Cardo; */
+  font-family: 'Spectral', sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  width: 125%;
+  margin-left: -40px;
+  margin-right: 80px;
+  /* margin-left: -45px;
+  margin-right: 80px; */
+  /* padding-left: 50px; */
+  /* padding-right: -60px; */
+  /* width: 180%;
+  margin-left: -10%;
+  margin-right: -10%;
+  padding-left: 0%;
+  padding-right: 50%; */
+  /* left: 60%; */
+}
+
+.tl-pr {
+  margin: 0;
+  font-size: 17px;
+  box-sizing: border-box;
+  color: #d73526;
+  /* font-family: Cardo; */
+  font-family: 'Spectral', sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  width: 125%;
+  margin-left: -40px;
+  margin-right: 80px;
+  /* margin-left: -45px;
+  margin-right: 80px; */
+  /* padding-left: 50px; */
+  /* padding-right: -60px; */
+  /* width: 180%;
+  margin-left: -10%;
+  margin-right: -10%;
+  padding-left: 0%;
+  padding-right: 50%; */
+  /* left: 60%; */
+}
+
 .timeline:before {
   position: absolute;
   left: 50%;
@@ -95,7 +126,9 @@
   color: rgba(255, 255, 255, 0.5);
   /* color: rgba(206, 6, 6, 0.609); */
   font-size: 24px;
-  font-family: "Pathway Gothic One", sans-serif;
+  /* font-family: "Pathway Gothic One", sans-serif; */
+  /* font-family: 'Garamond', serif; */
+  font-family: 'Spectral', sans-serif;
   border-left: 2px solid rgba(255, 255, 255, 0.5);
   /* border-left: 2px solid rgba(206, 6, 6, 0.609); */
   top: 70%;
@@ -181,13 +214,15 @@
 .timeline-header__title {
   color: #fff;
   font-size: 46px;
-  font-family: Cardo;
+  /* font-family: Cardo; */
+  font-family: 'Spectral', sans-serif;
   font-weight: normal;
   margin: 0;
 }
 .timeline-header__subtitle {
   color: rgba(255, 255, 255, 0.5);
-  font-family: "Pathway Gothic One", sans-serif;
+  /* font-family: "Pathway Gothic One", sans-serif; */
+  font-family: 'Spectral', sans-serif;
   font-size: 16px;
   letter-spacing: 5px;
   margin: 10px 0 0 0;
@@ -201,7 +236,8 @@
 .demo-footer a {
   color: #999;
   display: inline-block;
-  font-family: Cardo;
+  /* font-family: Cardo; */
+  font-family: 'Spectral', sans-serif;
 }
 
 
@@ -212,7 +248,7 @@ p {
   padding: 0 10px;
   width: 50%;
   box-sizing: border-box;
-  font-family: 'Cormorant Infant', serif;
+  font-family: 'Spectral', sans-serif;
   /* font-family: "Pathway Gothic One", sans-serif; */
   font-weight: 700;
   text-align:justify;
@@ -221,13 +257,13 @@ p {
 }
 
 p.p2 {
-  margin: 2em 2em 2em 10%;
+  margin: 2em 2em 2em 30%;
   /* margin: 10px 0 0 0; */
   transition: .4s;
   padding: 0 10px;
-  width: 35%;
+  width: 40%;
   box-sizing: border-box;
-  font-family: 'Cormorant Infant', serif;
+  font-family: 'Spectral', sans-serif;
   /* font-family: "Pathway Gothic One", sans-serif; */
   font-weight: 700;
   text-align:justify;
@@ -236,13 +272,34 @@ p.p2 {
   color:white;
 }
 
+p.pred {
+  /* margin: 2em 2em 2em 30%; */
+  /* margin: 10px 0 0 0; */
+  /* transition: .4s; */
+  /* padding: 0 10px; */
+  /* width: 40%; */
+  /* box-sizing: border-box; */
+  font-family: 'Spectral', sans-serif;
+  /* font-family: "Pathway Gothic One", sans-serif; */
+  font-weight: 700;
+  text-align:justify;
+  font-size: 14px;
+  /* color: rgb(255, 66, 66); */
+  color:#d73526;
+}
+
 hr {
   display: block;
   overflow: hidden;
   border-style: inset;
   border-width: 1px;
-  /* left: -80%; */
-  /* width: 120%; */
+  /* left: -25%; */
+  width: 120%;
+  margin-left: -10%;
+  /* margin-right: -10%; */
+  padding-left: 0%;
+  /* padding-right: -25%; */ */
+
 }
 button,
 .button {

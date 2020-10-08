@@ -110,6 +110,8 @@ input, select, textarea {
 
 	body {
 		background-color: #3c3c3b;
+		/* background-image: url("paper.gif"); */
+		/* background-image: url("images/foto_poesia_aryani.jpg"); */
 		/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 		background-size: auto,
  cover;
@@ -267,6 +269,7 @@ input, select, textarea {
 		font-family: 'Cormorant Infant', serif;
 		font-weight: 700;
 		text-align:justify;
+		font-size: 22px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2497,21 +2500,26 @@ input, select, textarea {
 		list-style: decimal;
 		margin: 0 0 2em 0;
 		padding-left: 1.25em;
+		/* font-size: 20px; */
 	}
 
 		ol li {
 			padding-left: 0.25em;
 			/* font-size: 1.1em; */
+			font-size: 20px;
 		}
 
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		/* font-size: 20px; */
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			font-size: 20px;
+			/* font-size: 20px; */
 		}
 
 		ul.alt {
@@ -2522,6 +2530,7 @@ input, select, textarea {
 			ul.alt li {
 				border-top: solid 1px rgba(255, 255, 255, 0.125);
 				padding: 0.5em 0;
+				/* font-size: 20px; */
 			}
 
 				ul.alt li:first-child {
@@ -3007,6 +3016,15 @@ input, select, textarea {
 		.button.disabled,
 		.button:disabled {
 			opacity: 0.25;
+		}
+
+		button.special,
+		.button.special {
+		  background-color: #d73526;
+		  color: #ffffff !important;
+		  line-height: 0.85;
+		  padding: 15px 6px;
+		  height: 40px;
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3698,13 +3716,14 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #3c3c3b;
+		/* background-color: #3c3c3b; */
 		margin: 6.5em 0;
 		position: relative;
 	}
 
+		/* ajustar_background_cinza */
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233c3c3b%3B' /%3E%3C/svg%3E");
+			/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233c3c3b%3B' /%3E%3C/svg%3E"); */
 		}
 
 		.wrapper:before {

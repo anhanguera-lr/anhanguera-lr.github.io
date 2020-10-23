@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<!--
+	Solid State by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Memórias do Morro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../assets_index/css/main.css">
+    <noscript><link rel="stylesheet" href="../assets_index/css/noscript.css"></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="../index.html">ALR</a></h1>
+        <nav> <a href="#menu">Menu</a> </nav>
+      </header>
+      <!-- Menu -->
+      <nav id="menu">
+        <div class="inner">
+          <h2>Menu</h2>
+          <ul class="links">
+            <li><a href="../index.html">Página Inicial</a></li>
+            <li><a href="../eventos.html">Eventos</a></li>
+            <!-- <li><a href="memorias_do_morro.html">Memórias do Morro</a></li> -->
+            <li><a href="../muro_historico.html">Mural Histórico</a></li>
+            <li><a href="../midia_digital.html">Mídia Digital</a></li>
+            <li><a href="../noticias.html">Nóticias</a></li>
+            <li><a href="../covid19.html">Covid-19</a></li>
+            <!-- <li><a href="projeto.html">Projeto</a></li> -->
+            <li><a href="../sobre.html">Sobre o Coletivo</a></li>
+            <li><a href="../contato.html">Contato </a></li>
+            <!-- <li><a href="elements.html"></a></li> -->
+          </ul>
+          <a href="#" class="close">Close</a> </div>
+      </nav>
+      <!-- Wrapper -->
+      <section id="wrapper">
+        <header>
+          <div class="inner">
+            <h2>Memórias do Morro </h2>
+            <!--								<p> -->
+            <!--
+									O projeto Memórias do Morro, fomentado pelo Programa VAI									(Programa Para a Valorização de Iniciativas Culturais),									visa rebuscar a possível história da formação do Distrito de									Anhanguera, assim como a distinção entre o distrito e os								seus Bairros constituintes, que por muitas vezes são considerados como							sendo o mesmo local.--><!--								</p>-->
+          </div>
+        </header>
+        <!-- Content -->
+        <div class="wrapper">
+          <div class="inner">
+            <h3 class="major">O que é o Morro Doce</h3>
+            <p>Embora popularmente conhecido como "Morro Doce", nosso território
+              é oficialmente denominado pelo Poder Público como Distrito
+              Anhanguera. Localizado no extremo Noroeste de São Paulo e
+              pertencente à área administritativa da Subprefeitura de Perus, o
+              Morro Doce foi uma das primeiras áreas a se desenvolver no
+              distrito, o qual atualmente é formado por mais de vinte bairros,
+              conforme mapa a seguir. </p>
+            <p><strong> </strong>A oficialização do território como Distrito
+              Anhanguera ocorreu em 1993, na gestão da prefeita Luiza Erundina.
+              A escolha do nome de um badeirante genocida, aconteceu sem que a
+              população local fosse consultada. A associação ao bandeirante
+              Anhanguera é uma estratégia para silenciar as memórias de lutas e
+              resistências indígenas ocorridas em toda a região Noroeste.</p>
+            <p> </p>
+            <p> <span style="font-size:12pt;font-family:'Times New Roman';color:#ff0000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"
+id="docs-internal-guid-838355b6-7fff-eef5-9514-10546e097868"><span style="border:none;display:inline-block;overflow:hidden;width:416px;height:587px;"><img
+src="https://lh4.googleusercontent.com/01lqibPcHqJn7C6qj7jzSzpjegjgvlk6xYb0hazc-vmKqpsLl21srFrPYCG5vH1A7bOxQG8rrZyKmGAxH60z-5oiMC7XcHlEyK35DGOo0jGlgaQAj3qKyxXOrI81xLP_eT97RlZg"
+style="margin-left:0px;margin-top:0px;" width="416" height="587"></span></span></p>
+            <p>Conforme os limites territoriais presentes no mapa (contribuição
+              produzida pela moradora e também geógrafa, Jamile Santos
+              Conceição), destacamos o Sol Nascente, Vila Sulina e Chácara Maria
+              Trindade que, ainda que geograficamente afastados e/ou separados
+              pela rodovia Anhanguera, igualmente fazem parte do nosso distrito.
+              Porém, para fins de viabilização desta publicação, aprofundamos a
+              pesquisa nas articulações populares e formação do Morro Doce e
+              bairros do entorno.</p>
+            <h3 class="major">O projeto</h3>
+            <p>O projeto foi contemplado e totalmente financiado pelo Programa
+              de Valorização de Iniciativas Culturais - <a href="http://spcultura.prefeitura.sp.gov.br/projeto/679">
+                Programa VAI</a> da Prefeitur Municipal de São Paulo,
+              intermediado pela Secretaria Municipal de Cultura - PMSP/SM, em
+              sua edição de 2019 para a criação de uma revista e este
+              site/repositório online. </p>
+            <!--
+            <p> O projeto Memórias do Morro, fomentado pelo Programa VAI              (Programa Para a Valorização de Iniciativas Culturais), visa              rebuscar a possível história da formação do Distrito de              Anhanguera, assim como a distinção entre o distrito e os seus              Bairros constituintes, que por muitas vezes são considerados como              sendo o mesmo local. </p>-->
+            <p>O projeto “Memórias do Morro” nasce de uma inquietação dos
+              membros do coletivo ALR, que notavam um discurso de insatisfação
+              com o território que surgia dos próprios moradores. Mudar a
+              percepção dos moradores com seu próprio local foi uma das nossas
+              primeiras motivações. </p>
+            <p>Em seguida, percebemos que era necessário estudar os processos
+              sociais e transformações que o Morro Doce passou (e ainda passa):
+              as ruas asfaltadas, as escolas, a luta pelo transporte público, e
+              toda a infraestrutura básica, etc. Mas como foram essas lutas?
+              Quem foram as pessoas envolvidas? </p>
+            <p>Registrar essas histórias e memórias é importante porque muitas
+              dessas pessoas, que foram essenciais para inúmeras conquistas
+              coletivas do nosso bairro, já estão com idade avançada, e detalhes
+              podem se perder com o tempo. Assim, nossa intenção foi de dar o
+              merecido protagonismo e enaltecimento às essas pessoas, esses
+              atores políticos, que estavam presentes nessas lutas. </p>
+            <p>Além disso, a revista “Memórias do Morro” torna-se uma referência
+              para que a formação do nosso bairro seja expandida e compartilhada
+              entre os moradores mais novos, e às futuras gerações.&nbsp;</p>
+            <h3 class="major">A Revista</h3>
+            <p> Coletamos depoimentos&nbsp; de antigos moradore, e ao mesmo
+              tempo, difundir mais conhecimento sobre nosso territóri.
+              Realizamos palestras e apresentações com convidados
+              especializados, levantamentos bibliográficos, fichamentos e
+              resumos, entrevista semiestruturadas e abertas, rodas de conversas
+              e grupos focais visando a troca de vivências e memórias.</p>
+            <p>Utilizamos como material de pesquis, documentários já produzidos,
+              e trabalhos de pesquisas já disponibilizados na internet, que
+              trouxeram contribuições para a nossa revista.&nbsp; &nbsp;</p>
+            <section class="features">
+              <article> <a href="#" class="image"><img src="../blank_page.jpg"></a>
+                <h3 class="major">Revista Digital</h3>
+                <p> Com o estudo realizado neste projeto, foi possível construir
+                  uma revista onde tentamos reunir pontos que contam a história
+                  da origem do Distrito Ananguera e seus bairros. </p>
+                <a href="#" class="special">Veja Mais</a> </article>
+              <article> <iframe src="https://drive.google.com/file/d/1jXeXji4saBxY6uy8srFkRBhft0iagCsq/preview"
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen="" width="99%" height="44%" frameborder="0"></iframe>
+                <!--											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>-->
+                <h3 class="major">Vídeos dos Eventos</h3>
+                <p>Confira aqui os registros dos eventos realizados dentro do
+                  projeto.</p>
+                <a href="videos.html" class="special">Ver vídeos</a> <a href="#"
+                  class="special">Ver canal no YouTube.</a> </article>
+              <article> <a href="#" class="image"><img src="../images/memorias/logo.jpg"
+                    alt=""></a>
+                <h3 class="major">Material Extra do Projeto</h3>
+                <p>Confira aqui todo material que não foi incluído na revista.
+                  Tal como: textos adicionais, fotos, etc. </p>
+                <a href="material_projeto.html" class="special">Ver mais</a> </article>
+            </section>
+            <h3 class="major">PORQUE FALAR DE POLÍTICA?</h3>
+            <p>Vivemos uma crise política. Muitas vezes, a política é enquadrada
+              como um simples ato de politicagem ou corrupção. Também é encarada
+              de forma procedimental, o ciclo eleitoral, as votações, as
+              campanhas, etc.. Ou mesmo, com o destrabalho midiático, a política
+              é entendida apenas em termos econômicos de difícil entendimento,
+              como inflação, exportação, importação, PIB, etc..</p>
+            <p>Porém, acreditamos que a crise política, é uma falta de crença na
+              política. Mas a política é a vida, ou seja, é uma parte
+              fundamental da vida em comunidade, que está sempre em constante
+              interação. Quando grupos se reúnem para debater problemas e
+              soluções para a vida coletiva, como por exemplo, brigar para que
+              as ruas sejam asfaltadas, melhoria das condições de transporte
+              público, ou instalação de rede de água e esgoto, esses grupos
+              estão fazendo política.</p>
+            <p>A política muitas vezes, é entendida também como os próprios
+              serviços e políticas públicas que são ofertados pelos governos.
+              Acreditamos que é extremamente importante o conhecimento dessa
+              "estrutura política". As divisões burocráticas formais, as
+              instâncias de poder decisório e participativo, e os serviços que
+              são ofertados pelo Poder Público. Esse conhecimento é importante
+              para que haja pressão política, em prol do atendimento das
+              demandas coletivas. Durante a revista, isso ficará visível, como
+              por exemplo, as manifestações ocorridas de transporte, na
+              subprefeitura ou mesmo na Câmara Municipal de São Paulo.</p>
+            <p>Nessa revista, tentaremos sistematizar algumas ações políticas
+              que aconteceram no nosso território, para que elas sejam
+              perpetuadas, expandidas e replicadas. Utilizaremos a memória como
+              um ingrediente político que promova a participação, o agrupamento
+              e a inquetação dos leitores. </p>
+            <p> </p>
+            <h3 class="major">MAS O QUE É MEMÓRIA?</h3>
+            <p> Embora a memória possa ser compreendida de diversos pontos de
+              vista, como por exemplo, neurocientífico, tecnológico e histórico,
+              nós assumimos a perspectiva das ciências sociais. Entendemos a
+              memória como um processo que é construído coletivamente e que está
+              em constante disputa. </p>
+            <p>Tivemos a intenção de utilizar a memória do Morro Doce, para
+              investigar os enquadramentos e <em>pontos de referência</em> que
+              estamos inseridos, os <i>esquecimentos </i>propositais e,
+              principalmente, a <em>identidade coletiva </em>com a qual nos
+              identificamos e nos recordamos.</p>
+            <h3 class="major">Qual é a sua principal lembrança do Morro
+              Doce?&nbsp;</h3>
+            <h4>MEMÓRIA COLETIVA:</h4>
+            <p>A memória coletiva não é o somatório das memórias individuais. É
+              um processo transmitido de geração em geração em que memórias de
+              diversos eventos e experiências adquirem algum nível de
+              significado cultural e afetivo. Exemplos de memória coletiva são
+              as manifestações por falta de água, que mesmo sem muitos detalhes,
+              registros ou mesmo a própria participação no evento que paralisou
+              a Rodovia Anhanguera, são lembradas por muitos moradores. </p>
+            <h4>Pontos de referência:</h4>
+            <p></p>
+            <p>Os pontos de referência são situações, lugares e caminhos,
+              prédios e arquitetura, que por estarem em nosso cotidiano, são
+              comuns a todos. Ou seja, os pontos de referência são criados no
+              plano material da vida.&nbsp; A <a href="rodovia_anhanguera.html"
+                class="button primary small"> Rodovia Anhanguera</a> exemplifica
+              o que é um ponto de referência coletivo do nosso território. Isso
+              porque, a rodovia é a única via de acesso para entrada e saída do
+              nosso bairro, sendo um espaço que aloca diversas lembranças
+              comunitárias, como nos casos das diversas manifestações. </p>
+            <h4>ESQUECIMENTO:</h4>
+            <p>Sabemos que esquecer de alguns fatos do nosso passado é algo
+              comum e natural</p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="inner">
+          <h2 class="major">Fique por dentro</h2>
+          <!-- <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p> -->
+          <!-- <form method="post" action="#">
+								<div class="fields">									<div class="field">										<label for="name">Name</label>										<input type="text" name="name" id="name" />									</div>									<div class="field">										<label for="email">Email</label>										<input type="email" name="email" id="email" />									</div>									<div class="field">										<label for="message">Message</label>										<textarea name="message" id="message" rows="4"></textarea>									</div>								</div>								<ul class="actions">									<li><input type="submit" value="Send Message" /></li>								</ul>							</form> -->
+          <ul class="contact">
+            <li class="icon solid fa-home"> Distrito Anhanguera/ Morro Doce<br>
+              São Paulo - SP<br>
+              Brazil </li>
+            <!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+            <li class="icon solid fa-envelope"><a href="#">anhanguera.lr@gmail.com</a></li>
+            <!-- <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li> -->
+            <li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/anhagueralutaeresistencia/">@anhagueralutaeresistencia</a></li>
+            <li class="icon brands fa-instagram"><a href="https://www.instagram.com/anhanguera.lr/">#anhanguera.lr</a></li>
+          </ul>
+          <ul class="copyright">
+            <li>© ALR </li>
+            <li>Design: Baseado em&nbsp; <a href="http://html5up.net">HTML5 UP</a>
+              &amp; <a href="https://templated.co">TEMPLATED</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- Scripts -->
+    <script src="assets_index/js/jquery.min.js"></script>
+    <script src="assets_index/js/jquery.scrollex.min.js"></script>
+    <script src="assets_index/js/browser.min.js"></script>
+    <script src="assets_index/js/breakpoints.min.js"></script>
+    <script src="assets_index/js/util.js"></script>
+    <script src="assets_index/js/main.js"></script>
+  </body>
+</html>

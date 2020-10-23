@@ -1,1 +1,5 @@
 [0204/090522.767:WARNING:minidump_to_upload_parameters.cc(36)] duplicate key guid, discarding value 02c66905-5e3d-4ac2-87cd-075d54937afc
+[1012/112506.707:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1015/202437.549:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1021/213734.779:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1022/004429.957:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

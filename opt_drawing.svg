@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SVGRoot" width="2560px" height="2560px" version="1.1" viewBox="0 0 2560 2560" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g>
+  <rect x="1074" y="6.1111" width="344.31" height="164.67" fill="none" stroke="#000" stroke-width="5.2395"/>
+  <g fill="#000000" font-family="sans-serif" font-size="40px">
+   <text transform="translate(1062.6 -10.294)" style="line-height:1.25;shape-inside:url(#rect1117);white-space:pre" xml:space="preserve"><tspan x="58.572266" y="112.5332"><tspan font-family="Spectral">Página Inicial</tspan></tspan></text>
+   <text style="line-height:1.25;shape-inside:url(#rect77);white-space:pre" xml:space="preserve"/>
+   <text style="line-height:1.25;shape-inside:url(#rect83);white-space:pre" xml:space="preserve"><tspan x="1406.9316" y="49.382812"><tspan> </tspan></tspan></text>
+  </g>
+  <text transform="translate(275.62 50.223)" x="204.46349" font-family="Spectral" font-size="32px" font-weight="500" style="line-height:1.25;shape-inside:url(#rect89);white-space:pre" xml:space="preserve"><tspan x="1491.8328" y="40.257628"><tspan font-size="32px" text-align="center" text-anchor="middle">- Quem somos nós;
+</tspan></tspan><tspan x="1417.625" y="80.257628"><tspan font-size="32px" text-align="center" text-anchor="middle">- resumo do conteúdo do site;
+</tspan></tspan><tspan x="1473.1928" y="120.25763"><tspan font-size="32px" text-align="center" text-anchor="middle">- memórias do morro.
+</tspan></tspan><tspan x="1406.9316" y="176.07989" visibility="hidden"><tspan dx="0 11.967957 7.999939 15.327942 17.343994 18.879944 11.583984 15.839966 11.551941" font-size="32px" text-align="center" text-anchor="middle">- contato</tspan></tspan></text>
+  <g fill="none">
+   <path d="m1246.1 170.71v142.5" stroke="#000" stroke-width="3.7213"/>
+   <rect x="501.04" y="335.36" width="1502.7" height="133.35" stroke-width="4"/>
+   <rect x="135.99" y="337.38" width="2223.8" height="187.9" stroke="#6c00ff" stroke-width="8.9294"/>
+   <rect x="248.86" y="389.14" width="242.86" height="75.714" stroke="#000" stroke-width="4"/>
+  </g>
+  <text x="262.71429" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="262.71429" y="433.92856">Memórias do Morro</tspan></text>
+  <rect x="499.71" y="389.14" width="242.86" height="75.714" fill="none" stroke="#000" stroke-width="4"/>
+  <text x="517.57147" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="517.57147" y="433.92856">Eventos Realizados</tspan><tspan x="517.57147" y="463.92856"/></text>
+  <rect x="750.57" y="389.14" width="242.86" height="75.714" fill="none" stroke="#000" stroke-width="4"/>
+  <text x="790.42865" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="790.42865" y="433.92856">Acervo Digital</tspan></text>
+  <rect x="1001.4" y="389.14" width="242.86" height="75.714" fill="none" stroke="#000" stroke-width="4"/>
+  <text x="1095.2859" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="1095.2859" y="433.92856">Notas</tspan></text>
+  <rect x="1252.3" y="389.14" width="242.86" height="75.714" fill="none" stroke="#000" stroke-width="4"/>
+  <text x="1332.1431" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="1332.1431" y="433.92856">Ações</tspan></text>
+  <rect x="1503.1" y="389.14" width="242.86" height="75.714" fill="none" stroke="#000" stroke-width="4"/>
+  <text x="1573.0001" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="1573.0001" y="433.92856">Parcerias</tspan></text>
+  <rect x="1754" y="389.14" width="242.86" height="75.714" fill="none" stroke="#000" stroke-width="4"/>
+  <text x="1847.8573" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="1847.8573" y="433.92856">Sobre </tspan></text>
+  <rect x="2004.9" y="389.14" width="242.86" height="75.714" fill="none" stroke="#000" stroke-width="4"/>
+  <text x="2076.7144" y="433.92856" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="2076.7144" y="433.92856">Contato </tspan></text>
+  <path d="m1246.1 330-14.537-25.179 29.074-5e-5 -7.2685 12.589z" fill="#00f" stroke="#6c00ff" stroke-width="4"/>
+  <path d="m248.86 464.86c-67.238 36.952-134.48 73.905-152.14 112.38-17.666 38.477 14.238 78.476 46.142 118.48" fill="none" stroke="#000" stroke-width="4"/>
+  <path d="m149.46 704.64-17.643-7.6709 15.465-11.444 1.0892 9.5574z" fill="#000008"/>
+  <rect x="48.467" y="705.65" width="538.46" height="276.23" fill="none" stroke="#000" stroke-width="6.005"/>
+  <text x="54.791901" y="727.95959" font-family="Spectral" font-size="24px" font-weight="500" style="line-height:1.25" xml:space="preserve"><tspan x="54.791901" y="727.95959">Informações sobre o Projeto Memórias do Morro</tspan><tspan x="54.791901" y="757.95959">     - descrição do projeto; </tspan><tspan x="54.791901" y="787.95959">     - nossos eventos; </tspan><tspan x="54.791901" y="817.95959">     - a revista; </tspan><tspan x="54.791901" y="847.95959">     - resumo das conclusões</tspan><tspan x="54.791901" y="877.95959">     - links para ao Acervo digital, incluindo: </tspan><tspan x="54.791901" y="907.95959">          * vídeos; * fotos; * áudio;</tspan><tspan x="54.791901" y="937.95959">          * documentos e referências utilizadas;  </tspan><tspan x="54.791901" y="967.95959"/><tspan x="54.791901" y="997.95959"/></text>
+  <path d="m547.14 464.29c-171.43 50-342.86 100-432.86 152.62-90 52.62-98.572 107.86-93.062 135.7 5.51 27.844 25.099 28.295 44.688 28.746" fill="none" stroke="#000" stroke-width="4"/>
+  <path d="m75.214 781.57-9.9167 5.7254 2e-6 -5.7254 2e-6 -5.7254 4.9584 2.8627z" stroke="#000" stroke-width="2.137"/>
+  <text transform="translate(107.08 10.102)" font-family="Spectral" font-size="37.333px" font-weight="500" style="line-height:1.25;shape-inside:url(#rect1196);white-space:pre" xml:space="preserve"><tspan x="606.0918" y="250.85588"><tspan style="shape-inside:url(#rect1196)">Menu com os seguites botões</tspan></tspan></text>
+  <g stroke="#000">
+   <path d="m1641.5 131.32-18.183 10.498v-10.498-10.498l9.0913 5.2489z" stroke-width="4"/>
+   <ellipse cx="1901.3" cy="129.3" rx="234.75" ry="117.38" fill="none" stroke-width="3.603"/>
+   <path d="m1418.3 87.883c25.592 0.33673 51.182 0.67345 68.691 8.2503 17.509 7.5769 26.937 22.392 51.35 29.463 24.413 7.0705 63.808 6.397 103.2 5.7236" fill="none" stroke-width="4"/>
+  </g>
+  <g font-family="Spectral" font-size="34.667px" font-weight="500">
+   <text transform="translate(222.23 -11.112)" x="4.2480001" text-align="center" style="line-height:1.25;shape-inside:url(#rect1221);white-space:pre" xml:space="preserve"><tspan x="1667.543" y="61.893479"><tspan fill="#ff0000" font-family="'Engravers MT'" font-size="41.333px" font-weight="normal" text-align="center" text-anchor="middle">1</tspan></tspan></text>
+   <text transform="translate(-1406.3 319.94)" x="4.2480001" text-align="center" style="line-height:1.25;shape-inside:url(#rect1221-7);white-space:pre" xml:space="preserve"><tspan x="1667.543" y="61.893479"><tspan fill="#ff0000" font-family="'Engravers MT'" font-size="41.333px" font-weight="normal" text-align="center" text-anchor="middle">2</tspan></tspan></text>
+   <text transform="translate(-1151.7 317.92)" x="4.2480001" text-align="center" style="line-height:1.25;shape-inside:url(#rect1221-5);white-space:pre" xml:space="preserve"><tspan x="1667.543" y="61.893479"><tspan fill="#ff0000" font-family="'Engravers MT'" font-size="41.333px" font-weight="normal" text-align="center" text-anchor="middle">3</tspan></tspan></text>
+   <text transform="translate(-1196.7 723.94)" x="4.2480001" text-align="center" style="line-height:1.25;shape-inside:url(#rect1221-7-7);white-space:pre" xml:space="preserve"><tspan x="1667.543" y="61.893479"><tspan fill="#ff0000" font-family="'Engravers MT'" font-size="41.333px" font-weight="normal" text-align="center" text-anchor="middle">2</tspan></tspan></text>
+   <text transform="translate(-434.53 -15.431)" x="4.2480001" text-align="center" style="line-height:1.25;shape-inside:url(#rect1221-4);white-space:pre" xml:space="preserve"><tspan x="1667.543" y="61.893479"><tspan fill="#ff0000" font-family="'Engravers MT'" font-size="41.333px" font-weight="normal" text-align="center" text-anchor="middle">1</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

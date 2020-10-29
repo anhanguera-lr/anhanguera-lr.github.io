@@ -2016,7 +2016,19 @@ hr.new_hr {
 	h5 {
 		font-size: 0.9em;
 		font-weight: 400;
+		width: 100%; 
+		text-align: center; 
+		/* border-bottom: 1px solid #000;  */
+		border-bottom: solid 1px #dbdbdb;
+		line-height: 0.1em;
+		margin: 10px 0 20px; 
 	}
+	 
+	 h5 span { 
+		 background:#fff; 
+		 padding:0 10px; 
+	 }
+
 
 	h6 {
 		color:gray;

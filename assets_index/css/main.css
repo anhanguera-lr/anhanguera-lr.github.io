@@ -2510,12 +2510,69 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 
 		.image.fit {
 			display: block;
+			margin: 0 0 0em 0;
+			width: 100%;
+			height: auto;
+			align-content: center;
+			text-align: center;
+			align-items: center;
+		}
+
+			.image.fit img {
+				width: 85%;
+				height:85%;
+				align-content: center;
+				text-align: center;
+				display: block;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+		/* .image.fit {
+			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
 			.image.fit img {
 				width: 100%;
+			} */
+
+			.image.fit2 img {
+				/* width: 70%; */
+/*
+				width:360px;
+				height:360px;
+*/
+				width:99%;
+				height:300px;
+				align-items: center;
+				align-content: center;
+				text-align: center;
+				display: block;
+/*				display: block;*/
+				margin-left: auto;
+				margin-right: auto;
+				object-fit: cover;
+				/* width: 50%; */
+			}
+			
+
+			.image.fit3 img {
+				align-items: center !important;;
+				align-content: center !important;;
+				text-align: center !important;;
+				display: block;
+				/* float: center; */
+				width:  400px;
+				height: 300px;
+				/* width:99%; */
+				/* height:300px; */
+				object-fit: cover;
+				margin-left: auto !important;;
+				margin-right: auto !important;;
+				/* object-fit: cover; */
 			}
 
 		.image.main {
@@ -3155,6 +3212,54 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 
 /* Header */
 
+.navbar {
+	/* overflow: hidden; */
+	/* background-color: #333; */
+	z-index: 1;
+	background-color: rgba(53, 56, 73, 0.95);
+	position: fixed;
+	top: 0;
+	left: -0px;
+	width: 100%;
+	padding: -22px -22px;
+  }
+  
+  .navbar a {
+	float: right;
+	text-align: center;
+	align-content: center;
+	/* display: block; */
+	color: #f2f2f2;
+	/* margin-left: 20px; */
+	padding: 0px 6px;
+	text-decoration: none;
+	height: auto;
+	/* font-size: 80%; */
+	-moz-transition: background-color 0.2s ease-in-out;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* .navbar a:before {
+	background: #ddd;
+	color: black;
+	float: right;
+	margin-left: 0.75em;
+	font-weight: 700;
+	position: fixed;
+  } */
+
+  .navbar a:hover {
+	background: rgb(211, 15, 15);
+	color: black;
+  }
+  
+  .main {
+	padding: 16px;
+	margin-top: 30px;
+	height: 1500px; 
+  }
+
 	#header {
 		-moz-transition: background-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out;
@@ -3206,6 +3311,7 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 			#header nav a {
 				border: 0;
 				display: inline-block;
+				/* position: absolute; */
 				padding: 0 1em;
 				font-weight: 700;
 			}
@@ -3214,6 +3320,7 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 					float: right;
 					margin-left: 0.75em;
 					font-weight: 700;
+					/* position: fixed; */
 				}
 
 				#header nav a[href="#menu"] {
@@ -3276,6 +3383,7 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 					right: 0;
 					height: inherit;
 					line-height: inherit;
+					/* position: fixed; */
 					font-weight: 700;
 				}
 
@@ -3483,17 +3591,21 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 /* Banner */
 
 	#banner {
-		padding: 15em 10em 2.25em 10em ;
+		margin-top: 3%;
+		padding: 15em 10em 2.25em 10em;
 		background-image: url('../../images/logo2.png');
 		/* background-color: black; */
-		background-size:45%;
+		background-size:35%;
+		/* margin: 100; */
+		padding: 100;
 		background-repeat: no-repeat;
-		background-position: center top 0em;
-		background-attachment: fixed;
+		background-position: 0% 10%;
+		/* background-position: left top 0em; */
+		/* background-attachment: fixed; */
 	}
 
 		#banner .inner {
-			margin: 0 auto;
+			margin: 10 auto;
 			width: 65em;
 		}
 
@@ -3507,7 +3619,8 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 2em auto 0 auto;
+			margin-top: 25px;
+			margin: 3em auto 0 auto;
 			/* padding: 0 0 0 0 ; */
 			width: 90%;
 			height: 90%;
@@ -3581,14 +3694,15 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 		@media screen and (max-width: 1280px) {
 
 			#banner {
+				margin-top: 3%;
 				padding: 10em 0 8.25em 0 ;
 				background-color: #3c3c3b;
 				/* background-image: inherit; */
 				background-image: url('../../images/logo2.png');
 				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
-				background-size: 30em;
-				background-position: top;
-				margin-bottom: -6.5em;
+				background-size:35%;
+				background-position: 0% 10%;
+				/* margin-bottom: -6.5em; */
 			}
 
 		}
@@ -3596,6 +3710,7 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 		@media screen and (max-width: 980px) {
 
 			#banner {
+				margin-top: 13%;
 				padding: 12em 3em 12.375em 3em ;
 				margin-bottom: -4.75em;
 			}
@@ -3606,6 +3721,19 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 
 		}
 
+		@media screen and (max-width: 460px) {
+
+			#banner {
+				padding: 15em 2em 4.25em 2em ;
+				margin-bottom: -2.5em;
+				width: 90%;
+				height: 90%;
+				background-size:35%;
+				background-position: 0% 50%;
+			}
+		}
+
+
 		@media screen and (max-width: 320px) {
 
 			#banner {
@@ -3613,6 +3741,8 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 				margin-bottom: -2.5em;
 				width: 90%;
 				height: 90%;
+				background-size:15%;
+				background-position: 0% 10%;
 			}
 
 				#banner .logo {
@@ -3666,6 +3796,168 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 			-ms-filter: blur(2px);
 			filter: blur(2px);
 		}
+
+/* Highlights */
+
+img {
+	vertical-align: middle;
+}
+
+* {
+	box-sizing: border-box;
+  }
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+	position: relative;
+	/* top: -30%; */
+	width: 50%;
+	/* height: 0%; */
+	left: 35%;
+	font-size: 8px;
+	margin-top: -50%;
+	/* font-size: 10%; */
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+	display: none;
+	align-content: center;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 35%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 250px 1px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 5% 5% 1% 5%;
+	margin-left: 0%;
+	font-size: 10%;
+	margin-top: -0.0%;
+	width: 100%;
+	font-size: 8px;
+	color: white;
+  }
+
+  @media screen and (max-width: 750px) {
+	.container {
+		position: relative;
+		/* top: -30%; */
+		width: 60%;
+		/* height: 0%; */
+		left: 30%;
+		font-size: 8px;
+		margin-top: -80%;
+		/* font-size: 10%; */
+	  }
+	}
+
+
+	@media screen and (max-width: 680px) {
+		.container {
+			position: relative;
+			/* top: -30%; */
+			width: 70%;
+			/* height: 0%; */
+			left: 25%;
+			font-size: 8px;
+			margin-top: -90%;
+			/* font-size: 10%; */
+		  }
+		}
+	
+
+  @media screen and (max-width: 600px) {
+	.container {
+		position: relative;
+		/* top: -30%; */
+		width: 80%;
+		/* height: 0%; */
+		left: 25%;
+		font-size: 8px;
+		margin-top: -99%;
+		/* font-size: 10%; */
+	  }
+	}
+
+  
+  @media screen and (max-width: 400px) {
+	.container {
+		position: relative;
+		/* top: -30%; */
+		width: 30%;
+		/* height: 0%; */
+		left: 25%;
+		font-size: 8px;
+		margin-top: -99%;
+		/* font-size: 10%; */
+	  }
+	}
+
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+	float: center;
+	width: 33%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
 
 /* Wrapper */
 
@@ -3734,8 +4026,7 @@ https://www.codementor.io/@jamesezechukwu/how-to-create-a-simple-counter-using-j
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto,
- 125%;
+			background-size: auto,125%;
 			margin-bottom: -2.5em;
 		}
 
